@@ -27,9 +27,9 @@ export function CarouselApiDemo() {
             <Carousel
                 setApi={setApi}
                 className="w-full max-w-xs"
-                plugins={[plugin.current]}
-                onMouseEnter={plugin.current.stop}
-                onMouseLeave={plugin.current.reset}
+                // plugins={[plugin.current]}
+                // onMouseEnter={plugin.current.stop}
+                // onMouseLeave={plugin.current.reset}
             >
                 <CarouselContent>
                     {Array.from({ length: 5 }).map((_, index) => (

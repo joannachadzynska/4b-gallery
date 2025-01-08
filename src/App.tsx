@@ -1,16 +1,13 @@
-import { Button } from "@/components/ui/button"
-import './App.css'
+import { Button } from '@/components/shadcnUi/button';
+import './App.css';
+import { CarouselApiDemo } from './components/Carousel/Carousel';
 
 function App() {
-
-  return (
-    <>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <Button>Click me</Button>
-      </div>
-    </>
-  )
+    return (
+        <main>
+            <CarouselApiDemo />
+        </main>
+    );
 }
 
-export default App
+export default App;
